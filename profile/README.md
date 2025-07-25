@@ -10,11 +10,9 @@ Tributary AI Services is an open-source, modular ecosystem for building advanced
 
 Tributary is a foundation for constructing powerful, production-ready RAG systems. Its components are built for flexibility, composability, and extensibility — supporting a wide range of workflows across ingestion, retrieval, orchestration, and generation.
 
----
 
 ![Features](features.png)
 
----
 
 Whether you're prototyping with local tools or deploying to production on cloud infrastructure, Tributary helps you build AI systems that learn, reason, and evolve.
 
