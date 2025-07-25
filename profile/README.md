@@ -12,7 +12,7 @@ Tributary is a foundation for constructing powerful, production-ready RAG system
 
 ---
 
-![Features](docs/images/features.png)
+![Features](features.png)
 
 ---
 
@@ -24,26 +24,26 @@ Whether you're prototyping with local tools or deploying to production on cloud 
 
 ### ✅ Currently Available
 
-- **DeepLake Integration**  
+- **DeepLake Integration**
   API bindings and SDK wrappers to interface with [DeepLake](https://activeloop.ai/) vector databases for fast, scalable retrieval.
   This provides an alternative to tightly linking Python libraries, reducing application size and opening DeepLake to developers using other programming languages
 
-- **Kubernetes-Native Data Compliance Ingest**  
+- **Kubernetes-Native Data Compliance Ingest**
   Scalable, fault-tolerant ingestion pipelines with observability and multi-source support.
   If supports secure ingest and identified PII, HIPAA, GDPR, and many other compliance standards
-  
+
 ### 🛠️ Coming Soon
-  
-- **Model Context Protocol (MCP)**  
+
+- **Model Context Protocol (MCP)**
   An advanced open implementation, featuring a server registry and discovery mechanism for orchestrating model context services.
 
-- **Knowledge Graph Integration**  
+- **Knowledge Graph Integration**
   Semantic linking and graph-based enrichment to enhance retrieval precision and context depth.
 
-- **Workflow & Agent Generation**  
+- **Workflow & Agent Generation**
   Tools to compose multi-step workflows and spawn intelligent agents dynamically.
 
-- **Analytics & Visualization**  
+- **Analytics & Visualization**
   Real-time observability, performance metrics, and system-level dashboards for RAG-based applications.
 
 ---
@@ -52,12 +52,12 @@ Whether you're prototyping with local tools or deploying to production on cloud 
 
 Tributary is designed as a loosely coupled set of interoperable services. It follows cloud-native principles, supports modern orchestration platforms, and prioritizes:
 
-![Event Orchestration](docs/images/event-automation)
+![Event Orchestration](event-automation.png)
 
-- **Transparency** over black-box automation  
-- **Extensibility** through open protocols and registries  
-- **Scalability** via containerized, composable deployments  
-- **Community collaboration** as a first-class goal  
+- **Transparency** over black-box automation
+- **Extensibility** through open protocols and registries
+- **Scalability** via containerized, composable deployments
+- **Community collaboration** as a first-class goal
 
 ---
 
@@ -65,11 +65,11 @@ Tributary is designed as a loosely coupled set of interoperable services. It fol
 
 We welcome contributions! Tributary is in active development, and we’re looking for collaborators across:
 
-- Vector and embedding support  
-- Protocol design (e.g., MCP extensions)  
-- Data ingestion connectors  
-- Visualization tools  
-- Knowledge graph utilities  
+- Vector and embedding support
+- Protocol design (e.g., MCP extensions)
+- Data ingestion connectors
+- Visualization tools
+- Knowledge graph utilities
 - Docs & examples
 
 Stay tuned for our contribution guide and community call schedule.
@@ -86,8 +86,7 @@ Tributary AI Services is open-sourced under the [Apache 2.0 License](LICENSE).
 
 Follow the stream—join our community discussions and watch for updates:
 
-- GitHub Discussions (coming soon)  
-- Community Slack (coming soon)  
+- GitHub Discussions [Lets talk](https://github.com/orgs/Tributary-ai-services/discussions)
 - Roadmap & releases on GitHub
 
 ---
