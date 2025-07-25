@@ -26,7 +26,7 @@ Whether you're prototyping with local tools or deploying to production on cloud 
   API bindings and SDK wrappers to interface with [DeepLake](https://activeloop.ai/) vector databases for fast, scalable retrieval.
   This provides an alternative to tightly linking Python libraries, reducing application size and opening DeepLake to developers using other programming languages
 
-- **Kubernetes-Native Data Compliance Ingest**
+- **Data Compliance Multimodal Ingest**
   Scalable, fault-tolerant ingestion pipelines with observability and multi-source support.
   If supports secure ingest and identified PII, HIPAA, GDPR, and many other compliance standards
 
