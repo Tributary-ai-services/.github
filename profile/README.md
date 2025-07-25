@@ -10,6 +10,12 @@ Tributary AI Services is an open-source, modular ecosystem for building advanced
 
 Tributary is a foundation for constructing powerful, production-ready RAG systems. Its components are built for flexibility, composability, and extensibility — supporting a wide range of workflows across ingestion, retrieval, orchestration, and generation.
 
+---
+
+![Features](docs/images/features.png)
+
+---
+
 Whether you're prototyping with local tools or deploying to production on cloud infrastructure, Tributary helps you build AI systems that learn, reason, and evolve.
 
 ---
@@ -20,11 +26,13 @@ Whether you're prototyping with local tools or deploying to production on cloud 
 
 - **DeepLake Integration**  
   API bindings and SDK wrappers to interface with [DeepLake](https://activeloop.ai/) vector databases for fast, scalable retrieval.
+  This provides an alternative to tightly linking Python libraries, reducing application size and opening DeepLake to developers using other programming languages
 
-### 🛠️ Coming Soon
-
-- **Kubernetes-Native Data Ingest**  
+- **Kubernetes-Native Data Compliance Ingest**  
   Scalable, fault-tolerant ingestion pipelines with observability and multi-source support.
+  If supports secure ingest and identified PII, HIPAA, GDPR, and many other compliance standards
+  
+### 🛠️ Coming Soon
   
 - **Model Context Protocol (MCP)**  
   An advanced open implementation, featuring a server registry and discovery mechanism for orchestrating model context services.
@@ -43,6 +51,8 @@ Whether you're prototyping with local tools or deploying to production on cloud 
 ## 🧩 Architecture Philosophy
 
 Tributary is designed as a loosely coupled set of interoperable services. It follows cloud-native principles, supports modern orchestration platforms, and prioritizes:
+
+![Event Orchestration](docs/images/event-automation)
 
 - **Transparency** over black-box automation  
 - **Extensibility** through open protocols and registries  
